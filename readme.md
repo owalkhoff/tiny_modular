@@ -34,6 +34,12 @@ The schematic:
 
 The schematic and layout were drawn in KiCad 5.0.2. You can find the project [in this directory](edition_one/kicad_5).
 
+## Caveats
+
+The 3.5mm jacks should be positioned perpendicular to the module front in order to be accessible, but there seems to be no jack on the market which can do this. A solution might be to add an auxiliary PCB for the jacks, soldered to the main PCB perpendicularly.
+
+Pin 1 (J3) and pin 6 (J4) are still unconnected on this revision of the PCB. The idea is that pin 6 supplies power to the PCB when it is connected to a programmer with the jumper set for this on J3.
+
 ## License
 
 The tinyModular circuit is CC NC BY minimosynth.com
