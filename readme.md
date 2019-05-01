@@ -4,7 +4,7 @@
 
 This is a modular synthesizer built around the ATtiny microcontroller. All modules have identical hardware, and can be programmed to become oscillators, filters, noise generators, etc.
 
-This project is based on the original miniMO by Jose Gonzalez. [minimosynth.com](https://minimosynth.com)
+This project is based on the original miniMO by Jose Gonzalez: [minimosynth.com](https://minimosynth.com)
 
 ## Design goals for the first version
 
@@ -24,11 +24,15 @@ Here is a rendering of the PCB, with some components:
 
 The PCB layout used for printing on transparency film:
 
-(edition_one/pdf/tiny_modular_pcb.pdf)
+[tiny_modular_pcb.pdf](edition_one/pdf/tiny_modular_pcb.pdf)
 
 The schematic:
 
-(edition_one/pdf/tiny_modular_schematic.pdf)
+[tiny_modular_schematic.pdf](edition_one/pdf/tiny_modular_schematic.pdf)
+
+## KiCad files
+
+The schematic and layout were drawn in KiCad 5.0.2. You can find the project [in this directory](edition_one/kicad_5).
 
 ## License
 
