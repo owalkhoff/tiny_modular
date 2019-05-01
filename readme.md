@@ -4,7 +4,7 @@
 
 This is a modular synthesizer built around the ATtiny microcontroller. All modules have identical hardware, and can be programmed to become oscillators, filters, noise generators, etc.
 
-This project is based on the original miniMO by Jose Gonzalez: [minimosynth.com](https://minimosynth.com)
+This project is based on the original miniMO by Jose Gonzalez: [minimosynth.com](https://minimosynth.com). Software and instructions can be found there too.
 
 ## Design goals for the first version
 
@@ -36,7 +36,7 @@ The schematic and layout were drawn in KiCad 5.0.2. You can find the project [in
 
 ## Caveats
 
-The 3.5mm jacks should be positioned perpendicular to the module front in order to be accessible, but there seems to be no jack on the market which can do this. A solution might be to add an auxiliary PCB for the jacks, soldered to the main PCB perpendicularly.
+The 3.5mm jacks should be positioned perpendicularly to the module front in order to be accessible, but there seems to be no jack on the market which can do this. A solution might be to add an auxiliary PCB for the jacks, soldered to the main PCB perpendicularly.
 
 Pin 1 (J3) and pin 6 (J4) are still unconnected on this revision of the PCB. The idea is that pin 6 supplies power to the PCB when it is connected to a programmer with the jumper set for this on J3.
 
