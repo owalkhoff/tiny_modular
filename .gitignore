@@ -1,4 +1,6 @@
 # OS
 .DS_Store
 
-# project specific
+# ignore previous version folders
+dev/
+edition_one_20190501/
